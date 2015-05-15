@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;	
+}
+
+img {
+	border:none;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;	
+	outline:none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background:#c3d2d9;
+}
+
+/* HEADER */
+#hdr {
+	background:url(bkmenu.png) repeat-x ;
+	color:#FFF;
+	height:48px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	min-width:1000px;
+}
+
+#hdr table {
+	margin:0px auto;
+	padding-top:7px;
+}
+
+#hdr table td {
+	text-align:center;
+	padding:5px;
+}
+#hdr table td a {
+	overflow:hidden;
+	display:block;
+	height:20px;	
+}
+
+#hdr table a:hover img{
+	color:#F80;
+	margin-top:-18px;		
+}
+/* HEADER END */
+
+h3 {
+	margin-top:10px;
+	margin-bottom:5px;
+	color:#bf2000;
+}
+
+#ftr {
+	background:url(ftr.png) repeat-x #c3d2d9;	
+	color:#163d59;
+	padding:10px;
+	min-height:100px;
+}
+
+#ftr div {
+	margin:0px auto;
+	display:table;	
+	text-align:center;
+}
+
+#mainwrap {
+	display:block;
+	margin-top:0px;
+	/*background:url(bkmain.png) repeat-x #f2f2f2;	*/
+  background:url(bac.jpg) no-repeat #e0e0e0;		
+	min-height:400px;   
+	background-position:top center;  
+	background-attachment:fixed;
+	padding:10px;
+}
+
+#fig1 {
+	border:#777 1px solid;
+}
+
+#cont {
+	display:table;
+	width:800px;
+	margin:0px auto;
+}
+
+.box {
+	color:#333;	
+	width:50%;
+	float:left;
+}
+
+.box p {
+	margin-bottom:10px;	
+}
+
+/* lista sa strihovima*/
+ul.strih {
+	margin:3px;
+	list-style:none;
+	padding-left:5px;
+}
+
+ul.strih li {
+	background:url(2.gif) no-repeat;
+	padding-left:16px;
+	padding-top:2px;
+}
+
+/* proizvodi */
+
+ul.proizvodi {
+	margin-right:30px;
+	list-style:none;
+	padding:5px;
+	padding-left:5px;
+	float:left;
+	font-size:12px;
+	background:#FFF;
+	border:#DDD 1px solid;
+}
+
+ul.proizvodi li {
+	padding:1px;
+}
+
+ul.proizvodi li:hover {
+	background:#DDD;
+}
+
+ul.proizvodi b {
+	font-size:13px;	
+	color:#30608F;
+}
+
+ul.proizvodi a {
+	color:#000;
+}
+
+.prinfo {
+	float:left;
+	width:500px;
+	margin:10px;
+}
+
+.prinfo ul {
+	margin-left:20px;
+}
+
+iframe {
+ width:600px;
+ height:373px;
+ float:left;	
+ border:#CCC 1px solid;
+}
+
+#refs {
+	font-size:13px;
+	background-color:#FFF;
+	border:#4080BF 1px solid;
+	margin:0px auto;
+	width:48%;
+	margin:7px;
+}
+
+#refs #prvi {
+	color:#20609F;
+	font-weight:bold;
+	text-align:center;
+}
+
+#refs td {
+	padding:2px;	
+	padding-left:5px;
+}
+
+#prvi td {
+	background:#CADFF4;	
+}
+
+.sivo {
+	background:#EEE;	
+}
+
+.kontakt {
+	font-weight:bold;
+	color:#30608F;
+	text-align:right;
+	padding:2px;
+	padding-right:10px;
+	padding-left:10px;
+	
+}
+
+/* portfolio */
+
+#pfl ul {
+	list-style:circle;
+	margin-left:17px;
+}
+
+#pfl table {
+	margin:0px auto;	
+/*	background:#FFF;
+	border:#BBB 1px solid;*/
+	padding:10px;
+	width:700px;
+}
+
+#pfl td[b] {
+	color:#30608F;
+	font-weight:bold;	
+	border-right:#508B14 2px solid;
+	vertical-align:top;
+	width:180px;
+}
+
+#pfl td {
+	padding:7px;	
+}

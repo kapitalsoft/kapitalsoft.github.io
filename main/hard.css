@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#hard {
+	background:url(hwnew/bck.jpg) center no-repeat;
+	height:800px;
+}
+
+#hard .b1 {
+	padding:10px;
+	width:300px;
+	height:220px;	
+	background:url(hwnew/box1bk.png) no-repeat;
+	text-align:center;
+	vertical-align:top;
+}
+
+#hard .b2 {
+	padding:10px;	
+	background:url(hwnew/box2bk.png) center no-repeat;	
+	height:218px;
+/*	border:#C00 1px dotted;	*/
+	text-align:center;
+/*	vertical-align:top;*/
+}
+
+#hard table {
+	margin: auto;	
+}
+
+#hard img {
+	padding-top:5px;
+}
+
+#hard td .d1 {
+	height:167px;
+}
+
+#hard td .d2 {
+	background:url(img/pdf.png) right no-repeat;
+/*	background:#C00;*/
+	height:30px;
+	text-align:left;
+	padding-top:20px;
+	padding-left:5px;
+}
+
+#hard td .d2 img {
+	padding-top:18px;
+	padding-left:5px;	
+}
